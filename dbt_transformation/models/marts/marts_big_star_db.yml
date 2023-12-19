@@ -1,0 +1,22 @@
+version: 2
+
+models: 
+  - name: dim_customers
+    columns:
+      - name: customer_id
+        description: Unique id that identifies a customer
+        tests:
+          - unique
+          - not_null
+      - name: email
+        description: The email address of the customer
+        tests:
+          - not_null
+      - name: city
+        description: The city of the customer
+        tests:
+          - not_null
+      - name: country
+        description: The country of the customer
+        tests:
+          - not_null
