@@ -1,3 +1,9 @@
+## Data Engineering Project
+The project shows the flow of data from a Postgres database to a BigQuery data warehouse. For the creation of this data pipeline we used Airbyte as our integration tool to connect the data from the source (Postgres database) to the last destination (BigQuery data warehouse). For the transofrmation of the data we used dbt. Lastly to manage the pipeline better we used Dagster.
+
+
+<img src="/overview.png" alt="Alt text" title="Overview">
+
 ## Prerequisites
 Ensure you have Python 3 installed. If not, you can download and install it from Python's official website.
 
@@ -18,7 +24,3 @@ Ensure you have Python 3 installed. If not, you can download and install it from
         - `.\venv\Scripts\activate`
 5. Install Dependencies:
     - `pip install -e ".[dev]"`
-
-[lil-course-url]: https://www.linkedin.com/learning/end-to-end-data-engineering-project?dApp=59033956&leis=LAA
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4D0DAQFQihfehsNCiQ/learning-public-crop_288_512/0/1698869440746?e=2147483647&v=beta&t=3G9Icq-7JuCKrWsa5lQMv3mLiqyy5NkXwj8urZEXCWw
-
